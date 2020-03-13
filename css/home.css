@@ -1,0 +1,394 @@
+*{
+   border: 0;
+   margin: 0;
+   padding: 0;}
+
+body {
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	margin: 0;
+	max-width: 100%
+	padding: 0;}
+/*----------------------------------------------------Begin of NavBar------------------------------------------------------------------*/
+.navbar {
+	height:70px;
+	padding: 10px;
+	background-color:#fff;
+	border-bottom:solid 1px #EBEAEB;
+	margin-left: 45px;
+	margin-right: 50px;}
+
+.navbar-brand{background-color:#fff;}
+
+.navbar-light .navbar-nav .nav-link {
+	color:#1d1d1d;
+	font-size: .85em;
+	font-style: bold;
+	font-weight: 500;
+	line-height: 1.28571429;
+	letter-spacing: normal;}
+
+#sign{
+	background-color:#fff;
+	color:#1d1d1d;
+	border-color:none;
+	font-size: .875rem;
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-weight: 400;
+	line-height: 1.28571429;
+	border: none;}
+
+#sign2{
+	height: 40px;
+	width: 140px;
+	padding: 10px;
+	margin:10px;
+	font-size: .875rem;
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-weight: 700;
+	line-height: 1.28571429;
+	letter-spacing: .8px;
+	transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms 
+	cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
+}
+
+#sign2:hover{ background-color: #1d1d1d; border: white;}
+
+#navbarSupportedContent{background-color:#fff;}
+
+.navbar .navbar-expand-lg .navbar-light .bg-light{background-color:#fff;}
+
+.btn-outline-success{
+	background-color:#611f69;
+	color:#fff;
+	border-color:#4a154b;}
+.bg-light { background-color: #fff !important;}
+.banone{
+	width:100%;
+	height:550px;
+	padding-bottom:0px;
+	overflow: hidden;
+}
+.cimg{
+	width:650px;
+	height:550px;
+	position: absolute;
+	left:700px;
+	margin-right:0;
+	object-fit: contain;
+
+}
+/*----------------------------------------------------End of NavBar------------------------------------------------------------------*/
+/*----------------------------------------------------Begin of Home Banner------------------------------------------------------------------*/
+
+.carousel-caption{
+	background-color: rgba(3,3,3,.2);
+}
+
+
+.imgtext{
+position: absolute;
+top: 250px;
+color: #1d1d1d;
+margin-left: 100px;
+
+
+}
+#maintxt{
+	font-weight: 700;
+	font-size: 3.125rem;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	line-height: 1.2;
+	letter-spacing: -1.5px;
+
+
+}
+#btn2{
+	height: 55px;
+	width: 190px;
+
+	margin-left: 10px;
+}
+#btn2:hover{
+	background-color: #1d1d1d;
+	border: white;
+
+	}
+#btn1{
+	height: 55px;
+	width: 160px;
+	
+}
+#btn1:hover{
+	background-color: #1d1d1d;
+	border: white;
+}
+
+#twohead{
+	height: 130px;
+	position: relative;
+	top: 50px;
+	margin-top: 20px;
+	font-size: 3.125em;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-weight: 700;
+	color:#1d1d1d;
+	line-height:1.12;
+	letter-spacing:-.8px;
+
+}
+#twotxt{
+	position: relative;
+	top: 1px;
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	padding-bottom:20px;
+	line-height:1.44444;
+	letter-spacing:-.2px;
+	font-size: 1.125rem;
+	font-weight: 800;
+	color:#212529;
+
+}
+.fa-arrow-right{
+	font-weight: 400px;
+}
+#vidbox{
+	max-width: 870px;
+	width: 100%;
+	box-shadow:0 0 1.5rem rgba(105,105,105,.5);
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	left:270px;
+}
+#rone{
+	padding-top: 50px;
+}
+.rowhead{
+	font-weight: 700;
+	font-size: 1.125em;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	line-height: 1.2;
+	letter-spacing: -1.5px;
+	padding-top: 15px;
+}
+.rowpar{
+	font-weight: 400;
+	font-size: 1.125em;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	line-height: 1.44444444;
+	letter-spacing: normal;
+}
+/*--------------------------------------------------------------------------------------------------------------------------*/
+#labeltwo{
+	font-size: 3.125rem;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-weight: 700;
+	letter-spacing: -.8px;
+}
+
+
+/*--------------------------------------Secod Row---------------------------------------------------------------------------*/
+.row{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.secrowhead{
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.vidtwo{
+	margin-left: 20px;
+}
+.thirdrowhead{
+	margin-top: 100px;
+}
+.secdivhead{
+	margin-left: 70px;
+}
+/*------------------------Secod Row---------------------------------------------------------------------------*/
+
+/*------------------------third Row---------------------------------------------------------------------------*/
+.thirddivhead{
+	margin-left: 70px;
+}
+/*------------------------third Row---------------------------------------------------------------------------*/
+
+/*------------------------------------Banner Div ---------------------------------------------------------------*/
+
+#banner{
+	height: 380px;
+	width: 100%;
+	background-image: url(../img/bg-halftone-black-20p.png);
+	background-repeat: repeat;
+	align-items: center;
+	text-align: center;
+	display: inherit;
+	background-size: 1300px 700px;
+	background-color:#4a154b;
+
+}
+#way{
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	text-align: center;
+	font-size: 3.125rem;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-weight: 700;
+	letter-spacing: -.8px;
+	color: white;
+	margin-right: 2rem;
+	padding-top: 9rem;
+	padding-bottom: 20px;
+}
+#lastbuttons{
+}
+/*-------------------------------------Banner Div--------------------------------------------------------------*/
+/*-------------------------------------caresoul two--------------------------------------------------------------*/
+.defbox{
+	width: 200px;
+	height: 80px;
+	text-align: center;
+}
+.caresoultwo{
+	height: 900px;
+	width: 100%;
+	background-color: #EBEAEB;
+	margin-bottom: 50px;
+
+}
+#carouselExampleCaptions{ padding-bottom: 50px; margin-left:70px;}
+#carehead{
+font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	text-align: center;
+	font-size: 3.125rem;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-weight: 700;
+	letter-spacing: -.8px;
+	margin-top: 20px;	
+}
+.boxcare{margin-bottom: 50px;   margin-top: 50px;	}
+.carousel-slide{height: 390px;	width: 1000px;}
+.carousel-caption{
+	height: 400px;
+	padding: 5px;
+	width: 600px;
+	left:35.1%;
+	background-color: white;
+	color:#4d394b;
+	position: absolute;
+	bottom: 0px;
+	text-indent: 5px;
+}
+.textcare{	padding-top: 30px;}
+.c-card{max-height: 390px; max-height: 390px; }
+.carousel-indicators li{
+	width:12px;
+	height:12px;
+	border-radius:50%;
+	position: relative;
+	top:50px;
+	background-color: black;
+	margin-right: 8px;
+}
+.carousel-control-prev-icon{position: absolute; left:-70px;}
+.carousel-control-next-icon{position: absolute; right:-5px;}
+/*-------------------------------------caresoul two--------------------------------------------------------------*/
+
+
+/*-------------------------------------what's new  Div--------------------------------------------------------------*/
+.what{margin-left: 100px;}
+.boxone{
+	height:425px;
+	width:250px;
+	max-width: 100%;
+	object-fit: contain;
+	box-shadow:0 0 1.5rem rgba(105,105,105,.5);
+}
+.boxone img{
+	width: 220px;
+	height: 180px;
+	display: block;
+	object-fit: contain;
+	margin-left: auto;
+    margin-right: auto;
+}
+#whathead{
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	text-align: center;
+	font-size: 3.125rem;
+	font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	font-weight: 700;
+	letter-spacing: -.8px;
+}
+/*-------------------------------------what's new Div--------------------------------------------------------------*/
+
+/*-------------------------------------navigation Div--------------------------------------------------------------*/
+#navimg{
+	height: 60px;
+	width: 60px;
+}
+
+.btnav ul li{
+	padding: 7px;
+	color: #696969;
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	cursor: pointer;
+	font-size: .875rem;
+}
+.btnav ul li:hover{
+color: #1264a3;
+}
+/*-------------------------------------navigation Div--------------------------------------------------------------*/
+/*-------------------------------------status Div--------------------------------------------------------------*/
+
+.statbar{
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	height: 80px;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+.statbar ul{
+	margin-top: 10px;
+	padding-top:30px;
+	margin-left:50px;
+	color: #696969;
+	margin-bottom: 20px;
+}
+.statbar ul li{
+	margin-right: 5px;
+    display: inline;
+	font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+	color: #696969;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.icoo{
+	position:absolute;
+	bottom: 25px;
+	right: 20px;
+	color: #454545;
+	padding-right: 10px;
+	margin-right: 5px;
+}
+ .fab{
+padding: 5px;
+}
+/*-------------------------------------status Div--------------------------------------------------------------*/
+/*-------------------------------------copyrights Div--------------------------------------------------------------*/
+.cprow{
+	height: 50px;
+	width: 100%;
+	background-color: #EBEAEB;
+	margin-bottom: 0px;
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	font-size: .75rem;
+	font-weight: 500;
+	font-family:Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+.coppar{
+padding-top: 20px;
+}
+/*-------------------------------------copyrights Div--------------------------------------------------------------*/
+
+/*---------------------------End OF Broject <3 Yaiiiiiiiiiiiiiiii ----------------------------------------------*/
